@@ -52,6 +52,11 @@ body {
 		top: -15vh;
 		left: -15vw;
 		transition: 0.4s;
+		display: none;
+	}
+
+	.active {
+		display: block;
 	}
 
 }
@@ -68,10 +73,10 @@ button {
 	cursor: pointer;
 }
 
-.left {
+.prev {
 	left: 15vw;
 }
 
-.right {
+.next {
 	right: 15vw;
 }
